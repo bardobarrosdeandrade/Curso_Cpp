@@ -1,0 +1,30 @@
+#include <iostream>
+#include <string>
+using namespace std;
+
+class Carro {
+public:
+    string marca, modelo;
+    int ano;
+    float preco;
+};
+
+int main(){
+    Carro carro;
+    cout << "Digite a marca do carro: ";
+    cin >> carro.marca;
+    cout << "Digite o modelo do carro: ";
+    cin >> carro.modelo;
+    cout << "Digite o ano do carro: ";
+    cin >> carro.ano;
+    cout << "Digite o preco do carro: ";
+    cin >> carro.preco;
+    
+    cout << "marca : "<< carro.marca << endl;
+    cout << "modelo : "<< carro.modelo << endl;
+    cout << "ano : "<< carro.ano << endl;
+    cout << "preco : "<< carro.preco << endl;
+
+    return 0;
+
+}
