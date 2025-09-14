@@ -17,11 +17,6 @@ float precoFinal = precoProduto;
 
 //NO C++ É MELHOR PASSAR O PARAMETRO COMO REFERENCIA.. '&' ASSIM A FUNÇÃO VAI ALTERAR DIRETAMENTE AS VARIAVEIS DO MAIN.
 
-void validaNumber(int preco){
-
-}
-
-    
 int validacaoDeEntrada(string = diaSemana, string = nomeProduto, float = precoProduto, string = opcaoProduto){
 //validação de entrada de entrada de texto
 
@@ -57,7 +52,6 @@ int validacaoDeEntrada(string = diaSemana, string = nomeProduto, float = precoPr
         cin.ignore(numeric_limits<streamsize>::max(), '\n');
     }
 }
-
 // Limpa o Enter que sobrou no buffer antes do próximo getline
     cin.ignore(numeric_limits<streamsize>::max(), '\n');
 
